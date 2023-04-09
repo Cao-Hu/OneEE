@@ -1,0 +1,25 @@
+{
+  "dataset": "fewFC",
+
+  "bert_hid_size": 768,
+  "tri_hid_size": 256,
+  "eve_hid_size": 256,
+  "arg_hid_size": 256,
+  "event_sample": 5,
+
+  "dropout": 0.5,
+
+  "epochs": 20,
+  "warm_epochs": 1,
+  "batch_size": 8,
+  "learning_rate": 1e-3,
+  "weight_decay": 0.01,
+  "grad_clip_norm": 1.0,
+
+  "bert_name": "./bert-base-chinese",
+  "bert_learning_rate": 2e-5,
+  "gamma": 1.0,
+
+  "seed": -1
+
+}
