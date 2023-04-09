@@ -1,0 +1,26 @@
+{
+    "dataset": "genia11",
+  
+    "bert_hid_size": 768,
+    "tri_hid_size": 128,
+    "eve_hid_size": 128,
+    "arg_hid_size": 256,
+    "event_sample": 6,
+  
+    "dropout": 0.5,
+  
+    "epochs": 25,
+    "warm_epochs": 1,
+    "batch_size": 8,
+    "learning_rate": 1e-3,
+    "weight_decay": 0.01,
+    "grad_clip_norm": 1.0,
+  
+    "bert_name": "./biobert",
+    "bert_learning_rate": 2e-5,
+    "gamma": 1.0,
+    "alpha": 1.0,
+  
+    "seed": 123
+  
+  }
